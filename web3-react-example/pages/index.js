@@ -36,50 +36,8 @@ export default function Home() {
       paddingTop: `${landingPadding}px`,
       paddingBottom: `${landingPadding}px`
     }}>
-    Now you can Go BRRRR too! Invest with us in tokenized Real Estate with cryptocurrencies.
+    Amazing shapes are for SALE! Earn passive income with NFT monster Shapes!
    </div>)
-  }
-
-  function TheProblem(){
-    return (<p>
-      The Problem
-   </p>)
-  }
-
-  function TheSolution(){
-    return (<p>
-      The Solution
-   </p>)
-  }
-
-  function WhyUs(){
-    return (<p>
-      Why Us
-   </p>)
-  }
-
-  function BuyBR4(){
-    return (<p>
-      Buy BR4 Token
-   </p>)
-  }
-
-  function Contact(){
-    return (<p>
-      Contact Form
-   </p>)
-  }
-
-  function Header(){
-    return (<p>
-      Contact Form
-   </p>)
-  }
-
-  function Footer(){
-    return (<p>
-      Footer
-   </p>)
   }
 
   async function connect() {
@@ -114,14 +72,6 @@ export default function Home() {
     <
     div className = "background-yellow" >
     <LandingLogo />
-    <TheProblem />
-    <TheSolution />
-    <WhyUs />
-    <BuyBR4 />
-    <Contact />
-    <Header />
-    <Footer />
-
     {
       !active &&
       <

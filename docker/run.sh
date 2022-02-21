@@ -1,7 +1,7 @@
 #!/bin/bash
 currentDir=$(pwd)
 
-containerName=AvaxToEth
+containerName=shapes
 imageName=node
 versionTag=12
 
