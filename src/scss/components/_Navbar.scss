@@ -1,0 +1,22 @@
+.navbar {
+	background: #00d1ff;
+	height: 50px;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0 23px;
+	gap: 34px;
+
+	.wallet_btn {
+		font-weight: bold;
+		font-size: 18px;
+		color: #ffffff;
+		background: #80e8ff;
+		border: 2px solid #00bee8;
+		box-sizing: border-box;
+		border-radius: 15px;
+		padding: 6px 15px;
+		cursor: pointer;
+	}
+}
