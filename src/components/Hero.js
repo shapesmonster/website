@@ -3,6 +3,7 @@ import YellowMonster from '../assets/YellowMonster.png'
 import PinkMonster from '../assets/PinkMonster.png'
 import GoldMonster from '../assets/GoldMonster.png'
 import MintingArrows from '../assets/MintingArrows.png'
+import ArrowUp from '../assets/ArrowUp.png'
 
 const Hero = () => {
 	return (
@@ -28,6 +29,8 @@ const Hero = () => {
 				<img src={MintingArrows} alt="MintingArrows" />
 				<button>MINT</button>
 			</div>
+
+			<img className="up_arrow" src={ArrowUp} alt="ArrowUp" />
 		</div>
 	)
 }

@@ -35,6 +35,12 @@
 	}
 }
 
+@include laptop-screen {
+	.about {
+		padding: 0 100px;
+	}
+}
+
 @include tablet-screen {
 	.about {
 		display: flex;

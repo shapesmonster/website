@@ -2,6 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	position: relative;
 
 	.shape_monster {
 		margin-top: 11px;
@@ -82,6 +83,13 @@
 			margin-left: 25px;
 		}
 	}
+
+	.up_arrow {
+		position: absolute;
+
+		top: 0;
+		right: 60px;
+	}
 }
 
 @include tablet-screen {
@@ -122,6 +130,10 @@
 				padding: 10px 30px;
 				margin-left: 20px;
 			}
+		}
+
+		.up_arrow {
+			display: none;
 		}
 	}
 }
