@@ -1,0 +1,130 @@
+.hero_section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.shape_monster {
+		margin-top: 11px;
+		max-width: 100%;
+		object-fit: contain;
+	}
+
+	p {
+		padding: 0 20px;
+		margin-top: 8px;
+		font-style: normal;
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 28px;
+		text-align: center;
+
+		color: #000000;
+		max-width: 800px;
+	}
+
+	.monsters_row {
+		margin-top: 40px;
+		display: flex;
+		gap: 10px;
+	}
+
+	h2 {
+		margin-top: 40px;
+		font-weight: 800;
+		font-size: 36px;
+		line-height: 42px;
+		color: #00d1ff;
+	}
+
+	.minted {
+		margin-top: 10px;
+		position: relative;
+
+		h1 {
+			font-style: normal;
+			font-weight: 800;
+			font-size: 72px;
+			margin: 0;
+			color: #00d1ff;
+		}
+
+		span {
+			position: absolute;
+			font-weight: bold;
+			font-size: 24px;
+			text-align: center;
+			color: #818181;
+			right: -100px;
+			bottom: 15px;
+		}
+	}
+
+	.mint_button_container {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		img {
+			max-width: 100%;
+		}
+
+		button {
+			background: #00d1ff;
+			border-radius: 26px;
+			font-style: normal;
+			font-weight: 800;
+			font-size: 36px;
+			line-height: 42px;
+			color: #ffffff;
+			padding: 22px 70px;
+			border: none;
+			position: absolute;
+			margin-left: 25px;
+		}
+	}
+}
+
+@include tablet-screen {
+	.hero_section {
+		.shape_monster {
+		}
+
+		p {
+			font-size: 18px;
+			line-height: 20px;
+		}
+
+		.monsters_row {
+			flex-direction: column;
+		}
+
+		h2 {
+			font-size: 25px;
+			line-height: 30px;
+			text-align: center;
+		}
+
+		.minted {
+			margin-top: 15px;
+
+			h1 {
+				font-size: 40px;
+			}
+
+			span {
+				font-size: 18px;
+				right: -70px;
+				bottom: 8px;
+			}
+		}
+
+		.mint_button_container {
+			button {
+				border-radius: 15px;
+				font-size: 20px;
+				padding: 10px 30px;
+				margin-left: 20px;
+			}
+		}
+	}
+}
